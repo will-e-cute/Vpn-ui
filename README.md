@@ -35,4 +35,8 @@
 - Affichage du profil VPN actuel dans l’UI.
 
 [2025-06-04] Version VPN_ui-en_0.9.py
-- Ajout du pop-up de déconnexion avant changement de connexion. 
+- Ajout du pop-up de déconnexion avant changement de connexion.
+
+[2025-07-02] Version VPN_ui-en_0.9.2.py
+- Historique de 5 à 8
+- Bug de seléction historique résolu. 
