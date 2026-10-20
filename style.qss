@@ -1,0 +1,200 @@
+/* Thème sombre moderne pour OpenVPN UI */
+
+QMainWindow, QDialog {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+QWidget {
+    font-family: "Segoe UI", "Inter", "Helvetica", sans-serif;
+    font-size: 13px;
+    color: #cdd6f4;
+}
+
+/* Cadres et cartes */
+QFrame#cardFrame {
+    background-color: #262738;
+    border: 1px solid #363a4f;
+    border-radius: 10px;
+}
+
+/* Champ de recherche */
+QLineEdit {
+    background-color: #313244;
+    border: 1.5px solid #45475a;
+    border-radius: 8px;
+    padding: 9px 14px;
+    color: #cdd6f4;
+    font-size: 13px;
+    selection-background-color: #4cafa5;
+    selection-color: #11111b;
+}
+
+QLineEdit:focus {
+    border: 1.5px solid #4cafa5;
+    background-color: #363a4f;
+}
+
+QLineEdit:disabled {
+    background-color: #1e1e2e;
+    color: #6c7086;
+    border: 1px solid #313244;
+}
+
+/* Boutons généraux */
+QPushButton {
+    background-color: #4cafa5;
+    color: #11111b;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #3e8e87;
+}
+
+QPushButton:pressed {
+    background-color: #33746e;
+}
+
+QPushButton:disabled {
+    background-color: #45475a;
+    color: #7f849c;
+}
+
+/* Bouton Déconnexion (Style rouge / danger) */
+QPushButton#btnDisconnect {
+    background-color: #362938;
+    color: #f38ba8;
+    border: 1px solid #f38ba8;
+}
+
+QPushButton#btnDisconnect:hover {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+}
+
+QPushButton#btnDisconnect:pressed {
+    background-color: #c0392b;
+}
+
+/* Boutons secondaires */
+QPushButton#btnSecondary {
+    background-color: #313244;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+}
+
+QPushButton#btnSecondary:hover {
+    background-color: #45475a;
+    border-color: #585b70;
+}
+
+QPushButton#btnSecondary:pressed {
+    background-color: #585b70;
+}
+
+/* Barre de statut / Badge */
+QFrame#statusCard {
+    background-color: #252739;
+    border-radius: 8px;
+    border: 1px solid #363a4f;
+    padding: 6px 12px;
+}
+
+QLabel#statusIndicator {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QLabel#profileName {
+    font-size: 12px;
+    color: #a6adc8;
+}
+
+/* Listes de sélection et historique */
+QListWidget {
+    background-color: #252739;
+    border: 1px solid #363a4f;
+    border-radius: 8px;
+    padding: 4px;
+    color: #cdd6f4;
+    outline: none;
+}
+
+QListWidget::item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+}
+
+QListWidget::item:hover {
+    background-color: #313244;
+}
+
+QListWidget::item:selected {
+    background-color: #4cafa5;
+    color: #11111b;
+    font-weight: bold;
+}
+
+/* Barres de défilement */
+QScrollBar:vertical {
+    border: none;
+    background: #1e1e2e;
+    width: 8px;
+    border-radius: 4px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #45475a;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #585b70;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* Menus contextuels (Tray Menu) */
+QMenu {
+    background-color: #252739;
+    color: #cdd6f4;
+    border: 1px solid #363a4f;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 8px 24px 8px 12px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: #4cafa5;
+    color: #11111b;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #363a4f;
+    margin: 4px 8px;
+}
+
+/* Tooltip */
+QToolTip {
+    background-color: #313244;
+    color: #cdd6f4;
+    border: 1px solid #45475a;
+    border-radius: 4px;
+    padding: 4px 8px;
+}

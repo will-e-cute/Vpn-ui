@@ -40,3 +40,11 @@
 [2025-07-02] Version VPN_ui-en_0.9.2.py
 - Historique de 5 à 8
 - Bug de seléction historique résolu. 
+
+[2026-10-16] Version VPN_ui-1.0.0.py
+- Migration complète vers PySide6 (Qt) : suppression totale de Tkinter et CustomTkinter.
+- Remplacement des appels PowerShell / route print par `psutil` (gain drastique de performances CPU).
+- Intégration du thème sombre QSS et QCompleter natif pour l'autocomplétion fluide des profils.
+- Détection dynamique et résiliente d'OpenVPN GUI et du profil actif.
+- Stockage de la configuration dans `%APPDATA%/OpenVPN_UI/config.json`.
+- Intégration native dans la zone de notification Windows (QSystemTrayIcon) avec notifications toast du système.
