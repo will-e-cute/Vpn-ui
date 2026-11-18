@@ -1,0 +1,57 @@
+{
+  "version": "auto-py-to-exe-configuration_v1",
+  "pyinstallerOptions": [
+    {
+      "optionDest": "noconfirm",
+      "value": true
+    },
+    {
+      "optionDest": "filenames",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/ui_main.py"
+    },
+    {
+      "optionDest": "onefile",
+      "value": true
+    },
+    {
+      "optionDest": "console",
+      "value": false
+    },
+    {
+      "optionDest": "icon_file",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/VPN-Gui.ico"
+    },
+    {
+      "optionDest": "name",
+      "value": "OpenVPN_UI"
+    },
+    {
+      "optionDest": "clean_build",
+      "value": true
+    },
+    {
+      "optionDest": "datas",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/style.qss;."
+    },
+    {
+      "optionDest": "datas",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/VPN-Gui.ico;."
+    },
+    {
+      "optionDest": "datas",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/Splash.jpg;."
+    },
+    {
+      "optionDest": "splash",
+      "value": "C:/Users/WilfriedGOUBOT/OneDrive - Exotec/Documents/05_Programme_dev/02_VPN_ui/Splash.jpg"
+    },
+    {
+      "optionDest": "hiddenimports",
+      "value": "psutil"
+    }
+  ],
+  "nonPyinstallerOptions": {
+    "increaseRecursionLimit": true,
+    "manualArguments": ""
+  }
+}
